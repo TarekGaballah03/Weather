@@ -1,0 +1,71 @@
+.top a img{
+    height: 50px;
+}
+
+.font-size{
+    font-size: 88px;
+}
+.size {
+    font-size: 9px;
+}
+/* colors */
+.grey2 {
+    background-color: #343a40;
+}
+.grey {
+    background-color: #212529;
+}
+.pplaceholder::placeholder {
+    color: white;
+}
+
+main {
+    background-image: url(../imgs/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40px;
+}
+
+.circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgba(33, 32, 32, 0.542);
+    color: #0078ff;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle i {
+    transition: all 0.3s ease;
+}
+.circle:hover {
+    background-color: #0078ff;
+    box-shadow: 0 0 0 5px rgba(40, 40, 40, 0.1);
+}
+.circle:hover i {
+    color: white;
+}
+
+.navbar-nav .nav-item .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+  
+}
+
+.nav-link.active,.nav-link:hover {
+    background-color: rgba(0, 120, 255, 0.1);
+    border-radius: 50px;
+    border: 1px solid #0078ff;
+}
+
+.nav-link {
+    border-radius: 50px;
+    border: 2px solid #0078ff;
+    transition: all 0.3s ease;
+}
